@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: block;
+}
+
+.menu-box {
+  width: 1024px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-a {
+  margin-right: auto;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-list {
+  line-height: 70px;
+  margin: 0 30px;
+  font-size: 16px;
+  list-style: none;
+
+}
+
+.nav-list a {
+  color:#FAFAFA;
+  text-decoration: none;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #FAFAFA;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  font-size: 64px;
+  padding:200px 0 10px 0;
+}
+
+.mv-text {
+  font-size: 20px;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.portfolio-box {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.portfolio-title::after {
+  content: '';
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  display: block;
+  background-color: #EC715F;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.portfolio-content {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-item:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right:0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.feature-box {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-title {
+  padding-top: 90px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.feature-title::after {
+  content: '';
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  display: block;
+  background-color: #EC715F;
+}
+
+.feature-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.feature-content {
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.feature-item {
+  width: 320px;
+}
+
+.feature-item:nth-child(2) {
+  margin: 0 10px;
+}
+
+.st-icon {
+  font-size: 60px;
+  text-align: center;
+}
+ .st-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+ }
+
+.st-text {
+  font-size: 16px;
+}
+
+#profile {
+  background-color: #ECEFF1;
+}
+
+.profile-box {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-title {
+  padding-top: 90px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.profile-title::after {
+  content: '';
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  display: block;
+  background-color: #EC715F;
+}
+
+.profile-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile-content {
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.profile-img {
+  width: 521px;
+  text-align: center;
+}
+
+.my-icon {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-item {
+  width: 521px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.name-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.skill {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.skill-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contact-box {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  padding-top: 90px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact-title::after {
+  content: '';
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  display: block;
+  background-color: #EC715F;
+}
+
+.contact-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-item {
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.contact-info {
+  width: 400px;
+  float: left;
+}
+
+.left {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-sns {
+  width: 400px;
+}
+
+.my-mail, .my-tel {
+  margin-top: 5px;
+}
+
+.contact-tel {
+  margin-top: 20px;
+}
+
+.right {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.sns1 {
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.sns1:nth-child(2) {
+  margin: 0 20px 0 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.footer {
+  text-align: center;
+  line-height: 60px;
+  color: #FAFAFA;
+  font-size: 16px;
+}
